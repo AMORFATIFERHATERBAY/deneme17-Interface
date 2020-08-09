@@ -24,7 +24,10 @@ namespace deneme17_Interface
             get;
             set;
         }
-        abstract public double Area();
+        virtual public double Area()
+        {
+            return 0;
+        }
         abstract public void EkranYaz();
     }
 }
